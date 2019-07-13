@@ -9,13 +9,13 @@ var PreloadState = {
     this.preloadBar.anchor.setTo(0.5);
     this.load.setPreloadSprite(this.preloadBar);
 
-    this.load.image('backyard', 'virtual/assets/images/backyard.png');    
-    this.load.image('apple', 'virtual/assets/images/apple.png');    
-    this.load.image('candy', 'virtual/assets/images/candy.png');    
-    this.load.image('rotate', 'virtual/assets/images/rotate.png');    
-    this.load.image('toy', 'virtual/assets/images/rubber_duck.png');    
-    this.load.image('arrow', 'virtual/assets/images/arrow.png');   
-    this.load.spritesheet('pet', 'virtual/assets/images/pet.png', 97, 83, 5, 1, 1); 
+    this.load.image('backyard', 'static/assets/images/backyard.png');    
+    this.load.image('apple', 'static/assets/images/apple.png');    
+    this.load.image('candy', 'static/assets/images/candy.png');    
+    this.load.image('rotate', 'static/assets/images/rotate.png');    
+    this.load.image('toy', 'static/assets/images/rubber_duck.png');    
+    this.load.image('arrow', 'static/assets/images/arrow.png');   
+    this.load.spritesheet('pet', 'static/assets/images/pet.png', 97, 83, 5, 1, 1); 
   },
   create: function() {
     this.state.start('HomeState');
