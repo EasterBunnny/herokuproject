@@ -2,8 +2,8 @@ from flask import Flask, render_template
 app = Flask('myApp')
 
 @app.route('/')
-def hello_world():
+def index():
    return render_template('main.html')
 
 if __name__ == '__main__':
-   app.run(debug=True)
+   app.run(debug=False)
